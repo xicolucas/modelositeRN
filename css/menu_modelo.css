@@ -16,8 +16,8 @@
     http://expressprefixr.herokuapp.com/
     */
     display: inline-block;
-    background-color: #a5d6a5;
-    border: 1px solid #cccccc;
+    background-color: #969696;
+    border: 1px solid #000000;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -44,6 +44,6 @@
     text-decoration: none;
 }
 #menu a:hover {
-    color: #004600;
+    color: #460000;
     /* text-decoration: underline; */
 }

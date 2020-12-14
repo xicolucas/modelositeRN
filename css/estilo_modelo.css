@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    background-color: #8dcb8d;
+    background-color: #a0a0a0;
 }
 p {
     text-align: justify;
@@ -13,7 +13,7 @@ p {
 #artigos {
     float: left;
     width: 500px;
-    border-right: 1px solid #000000;
+    border-right: 1px solid #6f726f;
     padding-right: 10px;
 }
 #lateral {
@@ -23,7 +23,7 @@ p {
 }
 #rodape {
     clear: both;
-    border-top: 1px solid #000000;
+    border-top: 1px solid #6f726f;
     padding-top: 5px;
     text-align: center;
 }
@@ -33,24 +33,24 @@ p {
 	margin-top: -8px;
 	padding: 1px 0 0 15px;
 	padding-bottom: 15px;
-	box-shadow: 10px 10px 5px #3e9b3e;
+	box-shadow: 10px 10px 5px #6f726f;
 	background-size: 100% 100%;
-	background: rgb(180,221,180); /* Old browsers */
-	background: -moz-radial-gradient(center, ellipse cover,  rgba(180,221,180,1) 0%, rgba(82,177,82,1) 40%, rgba(0,87,0,1) 83%, rgba(0,36,0,1) 100%); /* FF3.6+ */
-	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(180,221,180,1)), color-stop(40%,rgba(82,177,82,1)), color-stop(83%,rgba(0,87,0,1)), color-stop(100%,rgba(0,36,0,1))); /* Chrome,Safari4+ */
-	background: -webkit-radial-gradient(center, ellipse cover,  rgba(180,221,180,1) 0%,rgba(82,177,82,1) 40%,rgba(0,87,0,1) 83%,rgba(0,36,0,1) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-radial-gradient(center, ellipse cover,  rgba(180,221,180,1) 0%,rgba(82,177,82,1) 40%,rgba(0,87,0,1) 83%,rgba(0,36,0,1) 100%); /* Opera 12+ */
-	background: -ms-radial-gradient(center, ellipse cover,  rgba(180,221,180,1) 0%,rgba(82,177,82,1) 40%,rgba(0,87,0,1) 83%,rgba(0,36,0,1) 100%); /* IE10+ */
-	background: radial-gradient(ellipse at center,  rgba(180,221,180,1) 0%,rgba(82,177,82,1) 40%,rgba(0,87,0,1) 83%,rgba(0,36,0,1) 100%); /* W3C */
+	background: rgb(221, 180, 180); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(180,221,180,1) 0%, rgba(82,177,82,1) 40%, rgb(207, 41, 41) 83%, rgba(0,36,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(180,221,180,1)), color-stop(40%,rgb(106, 107, 106)), color-stop(83%,rgb(93, 104, 93)), color-stop(100%,rgba(0,36,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(180,221,180,1) 0%,rgba(82,177,82,1) 40%,rgb(206, 35, 35) 83%,rgba(0,36,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  rgba(180,221,180,1) 0%,rgba(82,177,82,1) 40%,rgb(221, 57, 66) 83%,rgba(0,36,0,1) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  rgba(180,221,180,1) 0%,rgba(82,177,82,1) 40%,rgb(194, 34, 34) 83%,rgba(0,36,0,1) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  rgba(180,221,180,1) 0%,rgb(160, 187, 85) 40%,rgb(161, 170, 77) 83%,rgba(0,36,0,1) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 }
 #cabecalho h1 {
     margin-bottom: 0;
-    text-shadow: 2px 2px 2px #003100;
+    text-shadow: 2px 2px 2px #0a0a0a;
     font-family: 'Audiowide', cursive;
     font-size: 270%;
-    color: #33ff33;
+    color: #6f726f;
 }
 #cabecalho h2 {
     margin-top: 0;
@@ -63,11 +63,11 @@ p {
     float: right;
     margin: 15px 15px 0 0;
     width: 15%;
-    border: 1px solid #003100;
+    border: 1px solid #310000;
     background: url(_img/logo.png) no-repeat;
-    -moz-box-shadow: 6px 6px 5px #004100;
+    -moz-box-shadow: 6px 6px 5px #410000;
 	-webkit-box-shadow: 6px 6px 5px #004100;
-	box-shadow: 6px 6px 5px #004100;
+	box-shadow: 6px 6px 5px #6f726f;
 	-moz-border-radius:190px;
 	-webkit-border-radius:190px;
 	border-radius:190px;
