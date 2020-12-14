@@ -1,19 +1,31 @@
 @charset "UTF-8";
 
-body{
+body {
     background-color: #8dcb8d;
 }
-p{
+p {
     text-align: justify;
 }
-#div_principal{
+#div_principal {
     width: 800px;
     margin: 0 auto 0 auto;
+}
+#artigos {
+    float: left;
+    width: 500px;
+    border-right: 1px solid #000000;
+    padding-right: 10px;
 }
 #lateral {
     width: 270px;
     float: right;
     padding-left: 10px;
+}
+#rodape {
+    clear: both;
+    border-top: 1px solid #000000;
+    padding-top: 5px;
+    text-align: center;
 }
 #cabecalho {
 	border-bottom: 1px solid #000000;
@@ -33,40 +45,30 @@ p{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 }
-#cabecalho h1{
+#cabecalho h1 {
     margin-bottom: 0;
     text-shadow: 2px 2px 2px #003100;
-    font-family: 'AudioWide', cursive;
+    font-family: 'Audiowide', cursive;
     font-size: 270%;
     color: #33ff33;
 }
-#cabecalho h2{
+#cabecalho h2 {
     margin-top: 0;
     margin-bottom: 0;
 }
-#cabecalho h3{
+#cabecalho h3 {
     margin-top: 0;
 }
-#cabecalho img{
+#cabecalho img {
     float: right;
     margin: 15px 15px 0 0;
     width: 15%;
     border: 1px solid #003100;
-    background: url(img/logo.png) no-repeat;
+    background: url(_img/logo.png) no-repeat;
     -moz-box-shadow: 6px 6px 5px #004100;
-    -webkit-box-shadow: 6px 6px 5px #004100;
-    box-shadow: 6px 6px 5px #004100;
-    -moz-border-radius:190px;
-    -webkit-border-radius:190px;
-    border-radius:190px;
-}
-#artigos{
-    float: left;
-    width: 500px;
-}
-#rodape{
-    clear: both;
-    border-top: 1px solid #000000;
-    padding-top: 5px;
-    text-align: center;
+	-webkit-box-shadow: 6px 6px 5px #004100;
+	box-shadow: 6px 6px 5px #004100;
+	-moz-border-radius:190px;
+	-webkit-border-radius:190px;
+	border-radius:190px;
 }
