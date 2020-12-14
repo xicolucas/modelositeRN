@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+body{
+    background-color: #8dcb8d;
+}
+p{
+    text-align: justify;
+}
+#div_principal{
+    width: 800px;
+    margin: 0 auto 0 auto;
+}
+#lateral {
+    width: 270px;
+    float: right;
+    padding-left: 10px;
+}
+#cabecalho {
+	border-bottom: 1px solid #000000;
+	border-radius: 15px;
+	margin-top: -8px;
+	padding: 1px 0 0 15px;
+	padding-bottom: 15px;
+	box-shadow: 10px 10px 5px #3e9b3e;
+	background-size: 100% 100%;
+	background: rgb(180,221,180); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(180,221,180,1) 0%, rgba(82,177,82,1) 40%, rgba(0,87,0,1) 83%, rgba(0,36,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(180,221,180,1)), color-stop(40%,rgba(82,177,82,1)), color-stop(83%,rgba(0,87,0,1)), color-stop(100%,rgba(0,36,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(180,221,180,1) 0%,rgba(82,177,82,1) 40%,rgba(0,87,0,1) 83%,rgba(0,36,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  rgba(180,221,180,1) 0%,rgba(82,177,82,1) 40%,rgba(0,87,0,1) 83%,rgba(0,36,0,1) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  rgba(180,221,180,1) 0%,rgba(82,177,82,1) 40%,rgba(0,87,0,1) 83%,rgba(0,36,0,1) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  rgba(180,221,180,1) 0%,rgba(82,177,82,1) 40%,rgba(0,87,0,1) 83%,rgba(0,36,0,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+#cabecalho h1{
+    margin-bottom: 0;
+    text-shadow: 2px 2px 2px #003100;
+    font-family: 'AudioWide', cursive;
+    font-size: 270%;
+    color: #33ff33;
+}
+#cabecalho h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#cabecalho h3{
+    margin-top: 0;
+}
+#cabecalho img{
+    float: right;
+    margin: 15px 15px 0 0;
+    width: 15%;
+    border: 1px solid #003100;
+    background: url(img/logo.png) no-repeat;
+    -moz-box-shadow: 6px 6px 5px #004100;
+    -webkit-box-shadow: 6px 6px 5px #004100;
+    box-shadow: 6px 6px 5px #004100;
+    -moz-border-radius:190px;
+    -webkit-border-radius:190px;
+    border-radius:190px;
+}
+#artigos{
+    float: left;
+    width: 500px;
+}
+#rodape{
+    clear: both;
+    border-top: 1px solid #000000;
+    padding-top: 5px;
+    text-align: center;
+}

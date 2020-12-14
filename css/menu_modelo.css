@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* Estilização do menu */
+#menu {
+    display: block;
+}a
+#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    top: 10px;
+    left: -40px;
+}
+#menu li {
+    /*
+    Compatibilidade obtida em:
+    http://expressprefixr.herokuapp.com/
+    */
+    display: inline-block;
+    background-color: #a5d6a5;
+    border: 1px solid #cccccc;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 5px #003100;
+    -moz-box-shadow: 5px 5px 5px #003100;
+    -ms-box-shadow: 5px 5px 5px #003100;
+    -o-box-shadow: 5px 5px 5px #003100;
+    box-shadow: 5px 5px 5px #003100;
+    padding: 5px 10px 5px 10px;
+    margin: 2px;
+}
+#menu li:hover {
+    background-color: #8dcb8d;
+    font-weight: bolder;
+    color: #ffffff;
+}
+#menu h1 {
+    display: none;
+}
+#menu a {
+    color: #000000;
+    text-decoration: none;
+}
+#menu a:hover {
+    color: #004600;
+    /* text-decoration: underline; */
+}
